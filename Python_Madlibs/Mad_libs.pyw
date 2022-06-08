@@ -339,10 +339,10 @@ def func3() :
     Reset3 = ttk.Button(frame, text = 'Reset',style="T.TButton", command = check2)
     Reset3.grid(column=1,row=1,sticky=W,padx=5)
     global noun_input
-    noun_input = input(win3,frame,"Verb  ",0)
+    noun_input = input(win3,frame,"Noun  ",0)
     
     
-    win3.title("Verb")
+    win3.title("Noun")
     win3.iconbitmap(os.path.realpath(os.path.join(ROOT_DIR, 'pictures','N.ico')))
     win3.resizable(0,1)
     win3.attributes("-alpha",0.99)
